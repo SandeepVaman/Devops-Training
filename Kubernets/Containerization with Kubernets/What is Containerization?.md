@@ -1,16 +1,16 @@
 # What is containerization?
 Containers have become one of the most popular concepts used in IT and software industry in the last five years. Since the introduction of Docker, containers have evolved to a larger ecosystem that include many tools and technologies, including Docker and Kubernetes.
 
-<img src="" alt="History of containers">
+<img src="images/HIstory of containers .png" alt="History of containers" height="300">
 
 Before we go into too much detail, let's look at why containers have become so popular and how they're used. First off, containers aren't a new topic. They've existed for a number of years and have taken many forms before the creation of Docker.
 
-<img src="" alt="What is container">
+<img src="images/What are Containers.png" alt="What is container" height="200">
 
 As you can see here, in general a container is defined as a collection of software processes unified by one namespace with access to an operating system kernel that it shares with other containers and little or no access between them.
 Docker modifies this definition by saying that a container is a runtime instance of Docker images that contain three things, a Docker image, an execution environment, and a standard set of instructions. For those coming from an object oriented world, you can use the analogy of classes and objects, where a container is an object and the class is a Docker image. While Docker has many products and solutions, the core pieces of the ecosystem are the Docker Engine and the Docker Store, sometimes referred to as the Docker Hub.
 
-<img src="" alt="Core elements of Docker eco system">
+<img src="images/" alt="Core elements of Docker eco system" height="300">
 
 The Docker Engine is comprised of runtime and packaging tools and is required to be installed on the hosts that run Docker. The Docker Store is an online cloud service where users can store and share their Docker images. 
 One question that comes up a lot is what is the difference between a container and a virtual machine? Containers might look like a VM, but these are two distinct technologies.
@@ -29,7 +29,7 @@ On the other hand, a container 
 
 From a high level, containers provide benefits to both developers and DevOps folk alike.
 
-<img src="" alt="Benefits of containers for Developers">
+<img src="images/Container benifits for users.png" alt="Benefits of containers for Developers">
 
 ---
 
