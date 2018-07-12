@@ -11,3 +11,12 @@ Docker Swarm is responsible for clustering and scheduling containers across host
 Mesos on the other hand is written in C++, with APIs in Java, Python, and C++. It's the oldest tool of the bunch, but this also means that it's the most stable. Mesos has a distributed kernel where many machines end up acting like one logical entity. The Marathon framework can be added to Mesos to schedule and execute tasks. And finally, Mesos has a more complex architecture than Docker Swarm.
 The typical users of Mesos are larger enterprises that require lots of compute, or jobs/task-oriented workloads. Mesos is often used by companies that have to perform big data jobs. 
 Rancher is a full stack container management platform. Initially it used to use a custom cluster orchestrator called cattle but now it suppers Kubernetes and Docker Swarm. It was an early player in the Docker ecosystem and had orchestration concepts that were way before its time and way before they were a hot topic.
+
+It has a great user interface and API to interact with clusters and provides enterprise support for its tooling. One of the other benefits of Rancher is that it supports organizations and teams out of box. The typical Rancher users are smaller teams, think startups or medium-sized companies.
+
+<img src="" alt="This chart plots the number of hosts and containers versus the size of the development team.">
+If you're running in a lean shop, you should probably consider some of the solutions towards the left. If you're in a larger enterprise, you might lean towards some of the more feature-rich solutions on the right.
+
+And it also shows that the AWS container service is overtaking Docker Swarm in less than a year. Another interesting trend in 2017 has been that most of the larger enterprises have joined the CNCF, which backs Kubernetes. Also, at DockerCon 2017, Docker natively started to support Kubernetes as an orchestrator on their platform.
+
+<img src="" alt="Kubernetes with Docker">
