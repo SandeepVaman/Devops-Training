@@ -14,7 +14,7 @@ Rancher is a full stack container management platform. Initially it used to use 
 
 It has a great user interface and API to interact with clusters and provides enterprise support for its tooling. One of the other benefits of Rancher is that it supports organizations and teams out of box. The typical Rancher users are smaller teams, think startups or medium-sized companies.
 
-<img src="" alt="This chart plots the number of hosts and containers versus the size of the development team.">
+<img src="images/Graph of cluster tools.png" alt="This chart plots the number of hosts and containers versus the size of the development team." height=300>
 If you're running in a lean shop, you should probably consider some of the solutions towards the left. If you're in a larger enterprise, you might lean towards some of the more feature-rich solutions on the right.
 
 And it also shows that the AWS container service is overtaking Docker Swarm in less than a year. Another interesting trend in 2017 has been that most of the larger enterprises have joined the CNCF, which backs Kubernetes. Also, at DockerCon 2017, Docker natively started to support Kubernetes as an orchestrator on their platform.
