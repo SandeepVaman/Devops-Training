@@ -19,5 +19,5 @@ If you're running in a lean shop, you should probably consider some of the solut
 
 And it also shows that the AWS container service is overtaking Docker Swarm in less than a year. Another interesting trend in 2017 has been that most of the larger enterprises have joined the CNCF, which backs Kubernetes. Also, at DockerCon 2017, Docker natively started to support Kubernetes as an orchestrator on their platform.
 
-<img src="" alt="Kubernetes with Docker">
+<img src="images/Docker powered by Kubernets and swarm.png" alt="Kubernetes with Docker">
 Realizing that the community wanted the choice of implementing Kubernetes or Docker Swarm, this gives the impression that Kubernetes has won the war of orchestrators and it has a pretty bright future ahead. We've covered other orchestration frameworks in this section, join me in the next chapter, to dive into the Kubernetes terminology and landscape.
