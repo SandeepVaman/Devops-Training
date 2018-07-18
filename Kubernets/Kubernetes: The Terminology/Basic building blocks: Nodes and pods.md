@@ -1,11 +1,11 @@
 # Basic building blocks: Nodes and pods
 In this section, we'll take a deeper look at some of the components and concepts that one uses on worker Nodes to build applications and Kubernetes.
 
-<img src="images/" alt="Kubernetes cluster">
+<img src="images/Kubernetes cluster.png" alt="Kubernetes cluster">
 This is another way to look at the same architecture, but from a cluster perspective. From this perspective, the Master is responsible for managing the cluster. It coordinates all the activities in the cluster and communicates with the Nodes to keep Kubernetes and your applications running.
 
 ## Node
-<img src="images/" alt="Definition of Node">
+<img src="images/what is a node.png" alt="Definition of Node">
 
 > The Node serves as a worker machine in the Kubernetes Cluster. One important thing to note is that this Node can be a physical computer or a virtual machine.
 
@@ -20,7 +20,7 @@ One thing to note is that if you're using Kubernetes in a production like settin
 For this course, we will use **Minikube**, which is a tool run Kubernetes locally. It's a lightweight Kubernetes implementation that creates a virtual machine, on your local box, and deploys a simple cluster containing of one single Node. Your applications run on Nodes, so let's take a look at the most basic construct needed to build a Kubernetes app.This is called a Pod.
 
 ## Pod
-<img src="images/" alt="Definition of Node">
+<img src="images/What is a pod.png" alt="Definition of Node">
 
 > In the Kubernetes model, a Pod is the simplest unit that you can interact with. You can create, deploy, and delete Pods, and it represents one running process in your cluster.
 A Pod contains the following things.
