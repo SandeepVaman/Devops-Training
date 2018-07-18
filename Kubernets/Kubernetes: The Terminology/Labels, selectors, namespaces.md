@@ -2,8 +2,11 @@
 The last must know concept to build applications are labels, selectors, and namespaces. These constructs allow us to agitate and organize our applications so that when we have a lot of them.
 ## Labels
 <img src="images/" alt="What are labels?">
+
 > Labels are key value pairs that are attached to objects like pods, services, and deployments. Labels are for us, the users of Kubernetes, to identify attributes for objects.
+
 Typically, labels are used to organize clusters in some meaningful way. They can be added at deployment time, or later on and changed at any time.
+
 Label keys are unique per object. Here are some examples of labels we might use.
 ```
 "release": "stable", "release": "canary"
