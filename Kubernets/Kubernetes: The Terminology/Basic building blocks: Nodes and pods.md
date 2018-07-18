@@ -29,7 +29,8 @@ A Pod contains the following things.
 3. a unique network IP
 4. options that govern how the container should run.
 
-In some scenarios, you can have multiple docker containers running in a Pod, but a Pod represents one single unit of deployment, a single instance of an application in Kubernetes that's tightly coupled and shares resources. Pods are designed to be ephemeral, disposable entities.
+In some scenarios, you can have multiple docker containers running in a Pod, but a Pod represents one single unit of deployment, a single instance of an application in Kubernetes that's tightly coupled and shares resources. 
+Pods are designed to be ephemeral, disposable entities.
 Pods also don't self-heal. If a Pod dies, for some reason, it will not be rescheduled. Also, if a Pod is exited from a Node because of lack of resources, it will not be restarted on different healthier Nodes. There are higher level constructs to manage and add stability to Pods, called **controllers**. So pro-tip, don't use a Pod directly. Use a controller instead, like a **deployment**.
 Through its life-cycle, a Pod has the following states.
 
